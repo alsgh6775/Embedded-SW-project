@@ -10,6 +10,7 @@ void process()
 void post_process()
 {
  printf("this is new process\n");
+}
 
 void power_on()
 {
@@ -19,8 +20,8 @@ void power_on()
 void power_off()
 {
  printf("power_off\n");
-
 }
+
 
 int main(void)
 {
