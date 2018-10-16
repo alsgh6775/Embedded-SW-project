@@ -10,13 +10,26 @@ void process()
 void post_process()
 {
  printf("this is new process\n");
+
+void power_on()
+{
+ printf("power_on\n");
+}
+
+void power_off()
+{
+ printf("power_off\n");
+
 }
 
 int main(void)
 {
+ power_on();
+ post_process();
+
  func1();
  func2();
- process();
- post_procss();
 
+ process();
+ power_off();
 }
