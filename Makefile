@@ -1,8 +1,9 @@
 CFLAGS= -Wall
-OBJS= func1.o myapp.o
+OBJS= func1.o func2.o myapp.o
 TARGET = myapp
+CC = gcc
 
-$(TARTGET): $(OBJS)
+$(TARGET): $(OBJS)
 	$(CC) -o $(TARGET) $(OBJS)
 %.o: %.c
 	$(CC) -c $(CFLAGS) $< -o $@
