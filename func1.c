@@ -3,5 +3,5 @@
 
 void func1()
 {
- printf("hello nice to meet u \n");
+ printf("we can use github now \n");
 }
